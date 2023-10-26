@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FA20-BCS-096</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+        <header class="top-header">
+            <p class="top-header-text">Students</p>
+            <p class="top-header-text">Alumni</p>
+            <p class="top-header-text">Faculty</p>
+            <p class="top-header-text">Media</p>
+            <p class="top-header-text">Careers</p>
+            <p class="top-header-text">Libraries</p>
+        </header>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo" >
+                <img src="./Images/AKU_logo.png" alt="Logo" onclick="hideCarouselContainer()"> 
+            </div>
+
+
+            <div class="links">
+            
+                <div class="dropdown">
+                    <a href="#">ABOUT US</a>
+                    <div class="dropdown-content">
+                        <a href="#">AKU at glance</a>
+                        <a href="#">Vison</a>
+                        <a href="#">Mission</a>
+                        <a href="#">Founder</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">ACADEMICS</a>
+                    <div class="dropdown-content">
+                        <a href="#">Medical College</a>
+                        <a href="#">School </a>
+                        <a href="#">Institue</a>
+                        <a href="#">Bussiness and culture</a>
+                    </div>
+                </div>
+            
+                <a href="#">ADMISSSIONS</a>
+                <a href="#">RESEARCH</a>
+                <a href="#">SUPPORT US</a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search Here">
+            </div>
+        </nav>
+    </header>
+
+    <section class="custom-section">
+        <div class="section-content">
+            <h2>March 1983​​-2023</h2>
+            <img src="./Images/40th-logo-white.png" alt="Sample Image">
+            <button>See our journey</button>
+        </div>
+    </section>
+<!-- =======Slider========= -->
+
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="slide">
+            <div class="left-column">
+                <h2>AKU, CGHE awarded NIH Grant
+
+                    AKU, a valued partner of the Center for Global Health Equity awarded a research grant from the NIH</h2>
+                <button>Learn More</button>
+            </div>
+            <div class="right-column">
+                <img src="./Images/4.jpg" alt="Image 1">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="left-column">
+                <h2>AKU, CGHE awarded NIH Grant
+
+                    AKU, a valued partner of the Center for Global Health Equity awarded a research grant from the NIH</h2>
+                <button>Learn More</button>
+            </div>
+            <div class="right-column">
+                <img src="./Images/3.jpg" alt="Image 2">
+            </div>
+        </div>
+        <div class="slide">
+            <div class="left-column">
+                <h2>Prof Lukoye joins National Academy of Medicine
+
+                    Election to the Academy is considered one of the highest honours in health and medicine</h2>
+                <button>Learn More</button>
+            </div>
+            <div class="right-column">
+                <img src="./Images/1.jpg" alt="Image 3">
+            </div>
+        </div>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</div>
+
+<section class="admission-title">
+    <h1>ADMISSION OPEN </h1>
+</section>
+
+
+<!-- ======CARDS====== -->
+
+
+<section class="card-section">
+    <div class="card">
+        <img src="./Images/card1.jpg" alt="Image 1">
+        <h3>Revolutionizing medical</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui facere temporibus quo fuga eligendi esse soluta facilis, suscipit repellat aliquam amet laborum magnam expedita quis?</p>
+    </div>
+    <div class="card">
+        <img src="./Images/card 2.jpeg" alt="Image 2">
+        <h3>Revolutionizing medical</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et reiciendis doloribus fugit error deleniti laudantium, quasi maxime ex eveniet facere libero placeat voluptas dolor quod?</p>
+    </div>
+    <div class="card">
+        <img src="./Images/card3.jpg" alt="Image 3">
+        <h3>Revolutionizing medical</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quae possimus veritatis, quas, molestiae adipisci voluptatem maiores at maxime doloremque non fuga similique!.</p>
+    </div>
+</section>
+<div class="button-container">
+<button class="stories-button">View All Stories</button>
+</div>
+
+<section class="program">
+    
+    <h1>OUR PROGRAMS </h1>
+
+    <div class="program-container">
+        <div>
+            <h1>NURSING AND MIDWIFERY</h1>
+            <p>A leader in nursing and midwifery education for more than 30 years
+
+                Pakistan | East Africa
+                MEDICINE
+                Developing outstanding clinicians and ground-breaking researchers
+                
+                Pakistan | East Africa
+                EDUCATIONAL DEVELOPMENT
+                Dedicated to improving school performance through better teaching and management</p>
+        </div>
+        <div>
+            <img src="./Images/Academics-ied.jpg" alt="">
+        </div>
+        <div>
+            <h1>MUSLIM CIVILISATIONS</h1>
+            <p>Our MA in Muslim Cultures attracts students and scholars from around the world
+
+                United Kingdom
+                MEDIA AND COMMUNICATIONS
+                Fostering ethics, diversity and independence in the media
+                
+                East Africa
+                ARTS AND SCIENCES
+                Undergraduate programmes launching soon
+                in Pakistan
+                
+                Pakistan</p>
+        </div>
+    </div>
+</section>
+
+
+
+</body>
+</html>
