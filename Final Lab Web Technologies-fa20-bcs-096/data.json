@@ -1,0 +1,33 @@
+[
+    {
+      "name": "15 pro max",
+      "company": "IPhone",
+      "price": 15.99
+    },
+    {
+      "name": "12 pro max",
+      "company": "IPhone",
+      "price": 12.99
+    },
+    {
+      "name": "12 pro max",
+      "company": "IPhone",
+      "price": 14.99
+    },
+    {
+      "name": "Vivo",
+      "company": "Android",
+      "price": 18.99
+    },
+    {
+      "name": "Oppo A12",
+      "company": "Android", 
+      "price": 18.99
+    },
+    {
+      "name": "Oppo A11",
+      "company": "Android",
+      "price": 11.99
+    }
+  ]
+  
